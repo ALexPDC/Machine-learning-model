@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Crear un dataset ficticio
+# Dataset
 data = {
     'Age': [22, 35, 26, 27, 32, 45, 21, 23, 42, 57, 36, 29, 41, 39, 20],
     'EstimatedSalary': [19000, 20000, 43000, 57000, 76000, 58000, 52000, 79000, 15000, 82000, 18000, 83000, 74000, 78000, 83000],
@@ -14,8 +14,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
-# Mostrar los primeros registros del dataset
 print(df.head())
 
 # Visualización de la distribución de los datos
